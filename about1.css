@@ -1,0 +1,283 @@
+ * {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* header part */
+/* title bar */
+.panel {
+    height: 70px;
+    background-color: #94eba7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.opn {
+    width: 85%;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.opn a {
+    margin: 13px;
+    text-decoration: none;
+}
+
+.opn li {
+    display: inline-block;
+    position: relative;
+}
+
+li ul.dropdwn1 li {
+    display: block;
+}
+
+.clickpe:hover {
+    color: #ff0000;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+li ul.dropdwn1 {
+    margin-top: 3px;
+    width: 200px;
+    background-color: #ddb565;
+    color: black;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+
+}
+
+li ul.dropdwn1:hover {
+    color: #c65a01;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+li ul a:hover {
+    background: #ffffff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+li:hover ul.dropdwn1 {
+    display: block;
+}
+
+a{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+
+/* search bar section */
+/* search box */
+input {
+    height: 35px;
+    margin-right: -19px;
+    width: 263px;
+    padding: 1px;
+    padding-left: 5px;
+    border-radius: 14px;
+    border: 3px solid rgb(105, 105, 105);
+    /* display: flex; */
+    
+}
+
+.search-icon {
+    width: 81px;
+    font-size: 21px;
+    color: #2b2f2f;
+    
+    /* align-items: center; 
+    display: flex; 
+    justify-content: center; 
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px; */
+}
+/* search bar section ends here */
+/* title bar ends here */
+/* header part done */
+
+/* about topic name */
+.navdiv {
+background-color: #dfd0a0;
+display: flex;
+align-items: flex-end;
+padding: 0%;
+height: 100px;
+justify-content: center;
+align-items: center;
+}
+
+.aboutnav {
+height: 80px;
+width: 100%;
+background-color: wheat;
+text-align: center;
+justify-self: center;
+align-items: center;
+}
+
+.aboutnav h1 {
+text-align: center;
+padding: 20px;
+}
+/* topic name code ends here */
+
+
+
+ /* logo part alignment */
+.logo {
+display: flex;
+     /* through this we put img and element on one part and then gave it margin and padding to look proper */
+}
+
+.logo ul li {
+list-style: none;
+display: inline-block;
+justify-content: space-evenly;
+margin: 54px;
+padding: 34px;
+     /* margin padding imp to give texture to nav elements */
+}
+
+.logo ul li a {
+color: #ad5820;
+text-decoration: none;
+font-size: 24px;
+font-weight: 530;
+}
+/* logo part alignment ends here */
+
+
+ /* pseudo selector */
+.logo ul li a:hover {
+text-decoration: underline;
+background-color: rgb(156, 156, 231);
+border: 3.5px solid chocolate;
+border-radius: 15px;
+color: black;
+padding: 14px;
+}
+
+.logo {
+display: flex;
+align-items: center;
+}
+
+ /* end of header part */
+ /* main part */
+ /* the boxes arrangement */
+.rc {
+border-radius: 15px;
+box-shadow: 0 5px 15px 0 #a29ae8df, 0px 5px 15px 0 #a29ae8df;
+border-top: 2px solid #eeeeee;
+margin-left: 50px;
+margin-right: 40px;
+margin-top: 20px;
+margin-bottom: 25px;
+padding: 40px 40px;
+
+    /* if u want to keep it in a row
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; */
+}
+
+.rectangle1 {
+width: 1200px;
+height: 260px;
+border: 5px solid blue;
+border-radius: 15px;
+padding: 34px;
+margin: 34px;
+display: inline-block;
+}
+
+.rectangle2 {
+width: 1200px;
+height: 260px;
+border: 5px solid blue;
+border-radius: 15px;
+padding: 34px;
+margin: 34px;
+display: inline-block;
+}
+
+.rectangle3 {
+width: 1200px;
+height: 260px;
+border: 5px solid blue;
+border-radius: 15px;
+padding: 34px;
+margin: 34px;
+display: inline-block;
+}
+
+ /* the content part */
+h1 {
+text-decoration: underline;
+text-align: center;
+text-transform: uppercase;
+}
+
+ /* the vision box */
+/* to bring the alignment, used flex property in rectangle1 class but for img it didn't go well hence did the arrangements using margins*/
+.vision {
+margin: 14px;
+font-size: 24px;
+font-weight: 500;
+text-transform: uppercase;
+text-decoration: underline;
+}
+
+pre 
+{
+    font-size: 19px;
+}
+
+.image {
+width: 250px;
+display: flex;
+margin-left: 880px;
+margin-top: -190px;
+}
+
+ /* the mission part */
+.mission {
+margin: 14px;
+font-size: 24px;
+font-weight: 500;
+text-transform: uppercase;
+text-decoration: underline;
+}
+
+ /* THE ABOUT PART  */
+.about {
+margin: 14px;
+font-size: 24px;
+font-weight: 500;
+text-transform: uppercase;
+text-decoration: underline;
+}
+
+ /* yaha image was not going smooth so individually assign kiya  */
+.image1 {
+width: 250px;
+display: flex;
+margin-left: 880px;
+margin-top: -170px;
+}
+
+.opn a {
+    color: black;
+}

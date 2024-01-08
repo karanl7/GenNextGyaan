@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header section */
+/* iks logo
+.image{
+width: 200px;
+margin-top: 20px;
+margin-bottom: -5px;
+margin-left: 20px;
+align-items: left;
+display: inline;
+padding: 0;
+}
+/* header section css over */
+
+/* title bar */
+.panel {
+    height: 70px;
+    background-color: #94eba7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opn {
+    width: 85%;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.opn a {
+    margin: 13px;
+    text-decoration: none;
+}
+
+.opn li {
+    display: inline-block;
+    position: relative;
+}
+
+li ul.dropdwn1 li {
+    display: block;
+}
+
+.clickpe:hover {
+    color: #ff0000;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+li ul.dropdwn1 {
+    margin-top: 3px;
+    width: 200px;
+    background-color: #ddb565;
+    color: black;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+
+}
+
+li ul.dropdwn1:hover {
+    color: #c65a01;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+li ul a:hover {
+    background: #ffffff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+li:hover ul.dropdwn1 {
+    display: block;
+}
+
+a{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+/* title bar ends here */
+
+/* about topic name */
+.navdiv {
+background-color: #dfd0a0;
+display: flex;
+align-items: flex-end;
+padding: 0%;
+height: 100px;
+justify-content: center;
+align-items: center;
+}
+
+.aboutnav {
+height: 80px;
+width: 100%;
+background-color: wheat;
+text-align: center;
+justify-self: center;
+align-items: center;
+margin-top: 21px;
+margin-bottom: 20px;
+}
+
+.aboutnav h1 {
+text-align: center;
+padding: 20px;
+text-decoration: underline;
+    /* margin-bottom: 10px; */
+}
+/* topic name code ends here */
+
+main{
+    background-image: url('sample2.jpg');
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+/* General styles */
+/* book's image  */
+
+.book-details {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    padding: 20px;
+    /* background-color: rgb(240, 238, 240); */
+    background-color: #fff;
+    transition: 1s;
+    border-radius: 15px;
+    border: 3px solid #73b6fd;
+    /* box-shadow: 0 5px 15px 0 #a29ae8df, 0px 5px 15px 0 #a29ae8df ;
+    border-top: 2px solid #eeeeee;
+    border: 3px solid blue; */
+}
+
+.book-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.book-info img{
+    border-radius: 10px;
+    border: 4px solid chocolate;
+    width: 220px;
+    height: 310px;
+    /* object-fit: cover; */
+    margin-right: 20px;
+}
+
+/* all para excluding abstract para  */
+.book-description p{
+    font-size: 19px;
+    padding: 5px;
+}
+
+/* abtract para  */
+.book-description .abstract{
+    font-size: 19px;
+    padding: 3px;
+}
+
+/* Price wala para  */
+pre{
+    font-size: 19px;
+    font-family: 'Arial', sans-serif;
+}
+
+input[type="number"] {
+    width: 50px;
+    font-size: 16px;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+input[type="radio"] {
+    margin-left: 105px;
+    width: 25px;
+    height: 17px;
+}
+
+label{
+    font-size: 19px;
+}
+
+button{
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    width: 130px;
+    height: 42px;
+    padding: 5px;
+    border-radius: 12px;
+    border: 2px solid black;
+    background-color: #c7a175e7;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #73b6fd;
+    transform: scale(1.1);
+}
+
+.add-to-cart a{
+    text-decoration: none;
+}
+
+.add-to-cart a:visited{
+    color: white;
+}
+.product-details
+{
+    margin-bottom: 20px;
+}
+
+.user-review .review-input {
+    width: 90%;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 13px;
+}
+
+h3,p{
+    font-family: 'Arial', sans-serif;
+}

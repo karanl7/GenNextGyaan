@@ -1,0 +1,232 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* header section */
+/* iks logo  
+.image{
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: -5px;
+  margin-left: 20px;
+  align-items: left;
+  display: inline;
+  padding: 0;
+} */
+
+/* title bar */
+.panel {
+    height: 70px;
+    background-color: #94eba7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.opn {
+    width: 85%;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.opn a {
+    margin: 13px;
+    text-decoration: none;
+}
+
+.opn li {
+    display: inline-block;
+    position: relative;
+}
+
+li ul.dropdwn1 li {
+    display: block;
+}
+
+.clickpe:hover {
+    color: #ff0000;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+li ul.dropdwn1 {
+    margin-top: 3px;
+    width: 200px;
+    background-color: #ddb565;
+    color: black;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+
+}
+
+li ul.dropdwn1:hover {
+    color: #c65a01;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+li ul a:hover {
+    background: #ffffff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+li:hover ul.dropdwn1 {
+    display: block;
+}
+
+a{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+
+/* search bar section */
+/* search box */
+input {
+    height: 35px;
+    margin-right: -19px;
+    width: 263px;
+    padding: 1px;
+    padding-left: 5px;
+    border-radius: 14px;
+    border: 3px solid rgb(105, 105, 105);
+    /* display: flex; */
+    
+}
+
+.search-icon {
+    width: 81px;
+    font-size: 21px;
+    color: #2b2f2f;
+    
+    /* align-items: center; 
+    display: flex; 
+    justify-content: center; 
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px; */
+}
+/* search bar section ends here */
+/* title bar ends here */
+
+/* about topic name */
+.navdiv {
+background-color: #dfd0a0;
+display: flex;
+align-items: flex-end;
+padding: 0%;
+height: 100px;
+justify-content: center;
+align-items: center;
+}
+
+.aboutnav {
+height: 80px;
+width: 100%;
+background-color: wheat;
+text-align: center;
+justify-self: center;
+align-items: center;
+}
+
+h1 {
+text-align: center;
+padding-top: 10px;
+    text-decoration: underline;
+    /* font-size: 35px; */
+    text-align: center;
+    margin-top: 14px;
+    /* padding: 3px */
+/* padding: 20px; */
+}
+/* topic name  */
+
+
+main{
+    background-image: url('sample1.jpg');
+    font-family: 'Arial', sans-serif;
+}
+p{
+    font-size: 20px;
+    margin: 13px 19px 13px 19px;
+    padding: 3px;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+/* the boxes part */
+.block1 {
+    height: 16rem;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-bottom: 30px;
+    display: flex;
+    /* background-color: rgb(240, 238, 240); */
+    transition: 1s;
+    border-radius: 15px;
+    /* box-shadow: 0 5px 15px 0 #a29ae8df, 0px 5px 15px 0 #a29ae8df ; */
+    border-top: 2px solid #eeeeee;
+    /* border: 3px solid blue; */
+    box-shadow: 12px 6px 10px rgb(77, 74, 74);
+    background-color: white;
+}
+
+.block1:hover {
+    transform: scale(1.1);
+    box-shadow: 23px 8px 22px  rgba(80, 69, 69, 0.54);
+    cursor: pointer;
+    border: 3px solid blue;
+}
+
+/* the heading part */
+.names{
+    margin: 14px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 15px;
+    /* display: block; */
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+img {
+    width: 360px;
+    border-radius: 10px;
+    display: flex;
+    margin: 17px;
+    /* margin-left: 880px; 
+    margin-top: -190px;  */    
+}
+
+.inf {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #000000;
+    margin-left: 6px;
+}
+
+/* view more */
+button{
+    font-size: 17px;
+    /* margin-left: 173px; */
+    /* margin-bottom: 19px; */
+    display: flex;
+    /* flex-direction: column; */
+    width: 105px;
+    height: 40px;
+    border: 3px solid blue;
+    border-radius: 15px;
+}
+
+
+

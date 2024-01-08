@@ -1,0 +1,58 @@
+
+
+/* main  */
+
+.container{
+    width: 75%;
+  margin-left: 75px;
+}
+.container .topic-text{
+  font-size: 24px;
+  font-weight: 600;
+  color: #3e2093;
+}
+
+p{
+    font-size: 20px;
+}
+
+.container .input-box{
+  height: 50px;
+  width: 100%;
+  margin: 12px 0;
+}
+.container .input-box input,
+.container .input-box textarea{
+  height: 100%;
+  width: 100%;
+  border: 2px solid rgb(37, 33, 33);
+  font-size: 16px;
+  background: #F0F1F8;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+}
+.container .message-box{
+  min-height: 110px;
+}
+.container .input-box textarea{
+  padding-top: 6px;
+}
+.container .button{
+  display: inline-block;
+  margin-top: 12px;
+}
+.container .button input[type="button"]{
+  color: #fff;
+  font-size: 25px;
+  outline: none;
+  border: none;
+  padding: 8px 50px;
+  border-radius: 6px;
+  background: #968fdadf;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button input[type="button"]:hover{
+  background: #5029bc;
+}

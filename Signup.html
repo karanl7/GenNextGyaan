@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="Signup.css">
+</head>
+
+<body>
+
+<header>
+    <!-- title bar code -->
+    <div class="panel">
+        <div class="opn">
+
+            <li><a href="index.html" class="clickpe">Home</a></li>
+
+            <li><a href="books.html" class="clickpe" target="_self">Books</a></li>
+
+            <li><a href="legacy_pg.html" target="_self" class="clickpe">Indian Legacies</a></li>
+
+            <li><a href="his-geo.html" target="_self" class="clickpe">History in Geography</a></li>
+
+            <li><a href="tech.html" class="clickpe" target="_self">Storyline to ScreenTech</a></li>
+
+            <li><a href="\Sports.html" class="clickpe" target="_self">Bhartiya Khel</a></li>
+
+            <li> <a href="about.html" class="clickpe" target="_self">About Us</a></li>
+
+            <li> <a href="\login.html" class="clickpe" target="_self">Login</a>
+                <ul class="dropdwn1">
+                    <li><a href="#">Details</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Query</a></li>
+                </ul>
+            </li>
+        </div>
+
+        <!-- search code -->
+        <!-- <div class="search">
+            <input class="srch" type="text" placeholder="Search ">
+
+        </div>
+        <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div> -->
+        <!-- search code ends here -->
+
+    </div>
+    <!-- title bar code ends here -->
+</header>
+
+<img src="ikslogo.png" alt="">
+   <div class="container">
+
+        <form >
+            <div>
+                <h1>CREATE AN ACCOUNT !! </h1>
+                <h3>It's free and only takes a minute</h3>
+            </div>
+
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+            </div>
+            <!-- <div class="form-group">
+                <label for="phone">Phone:</label><br>
+                <input type="tel" id="phone" required maxlength="10">
+            </div> -->
+            <br>
+            <div>
+                <input type="checkbox" id="terms" required>
+                <label for="terms">I agree to the terms and conditions</label>
+            </div>
+
+
+            <input type="submit" value="Sign Up" onclick="window.location.href = 'index.html';">
+
+        </form>
+        <!-- <p class="para-2">
+            Already a user? <a href="login.html" style="color: #007bff;">Login here</a>
+        </p> -->
+
+    </div>
+
+    <script src="Signup.js"></script>
+</body>
+
+</html>

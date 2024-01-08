@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+
+<body>
+    <header>
+        <!-- title bar code -->
+        <div class="panel">
+            <div class="opn">
+
+                <li><a href="index.html" class="clickpe">Home</a></li>
+
+                <li><a href="books.html" class="clickpe" target="_self">Books</a></li>
+
+                <li><a href="legacy_pg.html" target="_self" class="clickpe">Indian Legacies</a></li>
+
+                <li><a href="his-geo.html" target="_self" class="clickpe">History in Geography</a></li>
+
+                <li><a class="clickpe" href="tech.html" target="_self">Storyline to ScreenTech</a></li>
+
+                <li><a href="\Sports.html" class="clickpe" target="_self">Bhartiya Khel</a></li>
+
+                <li> <a href="about.html" class="clickpe" target="_self">About Us</a></li>
+
+                <li> <a href="\Signup.html" class="clickpe" target="_self">Sign in</a>
+                    <ul class="dropdwn1">
+                        <li><a href="#">Details</a></li>
+                        <li><a href="#">Feedback</a></li>
+                        <li><a href="#">Query</a></li>
+                    </ul>
+                </li>
+            </div>
+
+            <!-- search code -->
+            <div class="search">
+                <input class="srch" type="text" placeholder="Search ">
+
+            </div>
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <!-- search code ends here -->
+
+        </div>
+        <!-- title bar code ends here -->
+        </header>
+
+        <img src="ikslogo.png" alt="iks ">
+<main>
+    <div class="container">
+
+        <form method="get">
+
+            <div class="h2">
+                <h2>LOGIN WITH US</h2>
+            </div>
+
+            <div>
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="div3">
+                <input type="checkbox" id="rememberMe">
+                <label for="rememberMe">Remember Me</label>
+
+                <div id="message"></div>
+                <!-- <p> -->
+                <a class="fgt" href="#" style="color: #007bff;" onclick="forgotPassword()">Forgot Password?
+                </a>
+                <!-- </p> -->
+            </div>
+
+            <input type="submit" value="Login" onclick="window.location.href = 'index.html';">
+        </form>
+    </div>
+    <p class="para-1">
+        Not yet a Member ??<a href="Signup.html" style="color: #007bff;"> SIGN UP</a>
+    </p>
+
+</main>
+    <script src="login.js"></script>
+</body>
+
+</html>
